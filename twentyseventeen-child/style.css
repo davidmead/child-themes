@@ -1,0 +1,23 @@
+/*
+ Theme Name:   Twenty Seventeen Child
+ Theme URI:    http://davidjohnmead.com/twentyseventeen-child/
+ Description:  Twenty Seventeen Child Theme
+ Author:       David Mead
+ Author URI:   http://davidjohnmead.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyseventeen-child
+*/
+
+/* removes line through syndication icon */
+.entry-content a.u-syndication.syn-link {
+	webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.e-content {
+	margin: 0 0 1em 0;
+}
