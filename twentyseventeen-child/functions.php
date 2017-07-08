@@ -13,7 +13,7 @@ function my_theme_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
 /**
- * Add mf2 h-entry to article.
+ * Add mf2 h-entry to article - written by miklb https://miklb.com/
  */
 function my_post_classes( $classes ) {
         $classes = array_diff( $classes, array( 'hentry' ) );
