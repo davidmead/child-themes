@@ -30,6 +30,10 @@ function my_post_classes( $classes ) {
 
 add_filter( 'post_class', 'my_post_classes' );
 
+
+
+
+
 /**
  * Add mf2 p-author and v-card to article.
  */
@@ -43,7 +47,7 @@ function twentyseventeen_posted_on() {
     $byline = sprintf(
         /* translators: %s: post author */
         __( 'by %s', 'twentyseventeen' ),
-        '<span class="author p-author vcard h-card"><a class="u-url url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . get_the_author() . '</a></span>'
+        '<span class="author p-author vcard h-card"><img src="http://davidjohnmead.com/img/davidmead-social.png" class="u-photo" width="20"> <a class="u-url url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . get_the_author() . '</a></span>'
     );
 
     // Finally, let's write all of this to the page.
